@@ -1,0 +1,75 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #000;
+	font-family: 'Bungee', cursive;
+	background-image: linear-gradient(270deg, red, black);
+}
+
+.background {
+	position: relative;
+	width: 700px;
+	height: 500px;
+	background-color: #aff;
+	margin: auto;
+	
+	overflow: hidden;
+}
+.foreground {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	top:450px;
+	background: #900;
+	left: 100px;
+	transform: rotate(0deg);
+	
+}
+#obs{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	top: 450px;
+	background: green;
+	left:700px;
+	font-size: 20px;
+	text-align: center;
+}
+#Scoreboard{
+	position: absolute;
+	font-size: 40px;
+	color: #000;
+	left: 12%;
+	top: 75px;
+}
+#gameOver{
+	
+	position: absolute;
+	font-size: 50px;
+	color: #f00;
+	left:12%;
+	top: 25%;
+	text-align: center;
+	
+	
+}
+button{
+	margin-top:50px;
+	padding: 50px;
+	font-size: 75px;
+	margin-bottom: 50px;
+}
+
+#Face{
+	transform: rotate(90deg);
+	font-size: 25px;
+	margin: auto;
+}
+#TitleName{
+	text-align: center;
+	color:white;
+	font-size: 100px;
+	
+	margin: auto;
+	
+}
